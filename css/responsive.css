@@ -3,6 +3,11 @@
  * Author           : SeparateWeb
  * File             : responsive.css - main template responsive css style
 ------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }
 
 /* max screen with 1600px */
 @media only screen and (max-width: 1600px) {
@@ -680,7 +685,7 @@
     h6 {  font-size: 17px;  line-height: 26px;}
     p {   font-size: 16px;  line-height: 24px;}
     body {font-size: 16px; }
-    .sec-pad {padding-top: 70px; padding-bottom: 70px;}
+    .sec-pad {padding-top: 8rem; padding-bottom: 70px;}
     .btn-head { line-height: 42px!important; height: 42px; padding: 0 9px; font-size: 14px; }
     .sw-menu-sw-set {grid-gap: 10px;}
     .rundal-nav{width: 0;}
